@@ -1,0 +1,33 @@
+html {
+    background-size: 100%;
+    background-image: url(../image/fundo-da-paisagem-de-outono_1012-302.avif);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 700%;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 500%;
+}
+
+.container .levels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container ul {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 300%;
+}
