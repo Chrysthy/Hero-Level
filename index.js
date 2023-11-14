@@ -1,34 +1,34 @@
-let nome = "Chrystine"
-let nivel = 10001
+let nome = prompt("Digite o nome do seu personagem.")
+let nivel = prompt("Digite o level do seu personagem.")
 
 if(nivel < 1000){
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ferro")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ferro")
 }
 
 else if(nivel <= 2000){
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Bronze")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Bronze")
 }
 
 else if(nivel <= 5000){
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Prata")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Prata")
 }
 
 else if(nivel <= 7000){
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ouro")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ouro")
 }
 
 else if(nivel <= 8000){
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Platina")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Platina")
 }
 
 else if(nivel <= 9000){
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ascendente")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ascendente")
 }
 
 else if (nivel <= 10000) {
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Imortal")
+  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Imortal")
 }
 
 else {
-  console.log("A heroína de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Radiante")
+  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Radiante")
 }
