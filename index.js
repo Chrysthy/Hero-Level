@@ -1,34 +1,34 @@
-let nome = prompt("Digite o nome do seu personagem.")
-let nivel = prompt("Digite o level do seu personagem.")
+let hero = prompt("Enter your character's name.")
+let level = prompt("Enter your character's level.")
 
 if(nivel < 1000){
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ferro")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Iron.")
 }
 
 else if(nivel <= 2000){
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Bronze")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Bronze.")
 }
 
 else if(nivel <= 5000){
-  console.log("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Prata")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Silver.")
 }
 
 else if(nivel <= 7000){
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ouro")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Gold.")
 }
 
 else if(nivel <= 8000){
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Platina")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Platinum.")
 }
 
 else if(nivel <= 9000){
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Ascendente")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Ascending.")
 }
 
 else if (nivel <= 10000) {
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Imortal")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Bright.")
 }
 
 else {
-  alert("O (A) Herói (Heroína) de nome " + nome + " está no Nível " + nivel + ", na hierarquia: Radiante")
+  alert("The hero, named " + hero + ", is at Level " + level + ", within the hierarchy: Immortal.")
 }
