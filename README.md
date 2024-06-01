@@ -1,4 +1,4 @@
-# Hero Level
+# Hero Level 🛡️
 
 ### This project was created during the Potência Tech iFood Bootcamp - Programação do Zero.
 
